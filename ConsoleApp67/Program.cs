@@ -8,7 +8,7 @@ namespace ConsoleApp67
         public static void Main()
         {
                 Country c1 = new Country() { Name = "AUS", Code = "AUSTRAILA", Capital = "Camberra" };
-                Country c2 = new Country() { Name = "SA", Code = "SOUTH AFRICA", Capital = "Cape town" };
+                Country c2 = new Country() { Name = "SAF", Code = "SOUTH AFRICA", Capital = "Cape town" };
                 Country c3 = new Country() { Name = "IND", Code = "INDIA", Capital = "NEW DELHI" };
                 Country c4 = new Country() { Name = "GBR", Code = "UNITED KINGDOM", Capital = "LONDON" };
                 Country c5 = new Country() { Name = "CAD", Code = "CANADA", Capital = "OTTAWA" };
