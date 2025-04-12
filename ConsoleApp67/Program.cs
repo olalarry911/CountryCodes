@@ -23,7 +23,7 @@ namespace ConsoleApp67
             string userchoice = string.Empty;
             do
             {
-                Console.WriteLine("Please enter your country code so we can find you, now we have many messages");
+                Console.WriteLine("Please enter your country code so we can find you");
                 string strcountry = Console.ReadLine().ToUpper();
 
                 Country resultcountry = dictlist.ContainsKey(strcountry) ? dictlist[strcountry] : null;
